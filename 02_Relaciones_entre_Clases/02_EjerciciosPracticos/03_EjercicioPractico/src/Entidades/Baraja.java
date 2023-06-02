@@ -108,10 +108,6 @@ public class Baraja {
 
         }
 
-//       darCartas(): dado un número de cartas que nos pidan, le devolveremos ese número de
-//       cartas. En caso de que haya menos cartas que las pedidas, no devolveremos nada, pero
-//       debemos indicárselo al usuario.
-//
         public void darCartas() {
             
             System.out.println("Ingrese el numero de cartas que quiere");
@@ -140,9 +136,6 @@ public class Baraja {
             }
             
         }
-
-//        cartasMonton(): mostramos aquellas cartas que ya han salido, si no ha salido ninguna
-//        indicárselo al usuario.
 
         public void cartasMonton() {
             
