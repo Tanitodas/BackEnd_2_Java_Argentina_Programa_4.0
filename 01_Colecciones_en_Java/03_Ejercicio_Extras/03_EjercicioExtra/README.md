@@ -1,18 +1,32 @@
-## Getting Started
+## Ejercicio Extra Nº 3
+----
+### *Enunciado:*
+<p> 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Desarrolla una función que reciba como parámetro un ArrayList de objetos "Persona" y devuelva un HashSet
+con los nombres de las personas. A continuación, implementa otra función que tome este HashSet como entrada y
+retorne un TreeSet ordenado de los nombres. Además, crea las entidades y servicios necesarios.
 
-## Folder Structure
+</p>
 
-The workspace contains two folders by default, where:
+---
+## Estructura de Carpetas
+---
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'PersonaService'`* y ver su resultado por consola.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    + *Entidades* : Este paquete almacena la clase *`'Persona'`* la cual nos da la estructura para los objetos de su mismo tipo.
 
-## Dependency Management
+    + *Servicio* : En este paquete se almacena la clase *`'PersonaService'`*. La cual esta destinada a contener los metodos personalizados que utilizaremos sobre los objetos de la clase *`'Persona'`*
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
