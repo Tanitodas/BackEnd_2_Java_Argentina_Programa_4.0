@@ -1,5 +1,5 @@
 ## Ejercicio Nº 4
-----
+
 ### *Enunciado:*
 <p> 
 Un cine necesita implementar un sistema en el que se puedan cargar peliculas. 
@@ -30,9 +30,9 @@ pantalla.
 
 + Ordenar las películas por director, alfabéticamente y mostrarlo en pantalla.
 
----
+
 ## Estructura de Carpetas
----
+
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
 
