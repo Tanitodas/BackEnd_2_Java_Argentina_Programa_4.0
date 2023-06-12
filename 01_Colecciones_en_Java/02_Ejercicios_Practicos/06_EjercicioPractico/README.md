@@ -1,5 +1,5 @@
 ## Ejercicio Nº 6
-----
+
 ### *Enunciado:*
 <p> 
 
@@ -18,9 +18,8 @@ Realizar un menú para lograr todas las acciones previamente mencionadas.
 
 </p>
 
----
 ## Estructura de Carpetas
----
+
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
 
