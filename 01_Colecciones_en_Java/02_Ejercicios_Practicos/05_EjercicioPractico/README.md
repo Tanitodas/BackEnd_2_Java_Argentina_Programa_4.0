@@ -1,5 +1,5 @@
 ## Ejercicio Nº 5
-----
+
 ### *Enunciado:*
 <p> 
 
@@ -20,9 +20,9 @@ al usuario.
 
 </p>
 
----
+
 ## Estructura de Carpetas
----
+
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
 
