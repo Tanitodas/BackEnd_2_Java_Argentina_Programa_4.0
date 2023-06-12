@@ -1,5 +1,5 @@
 ## Ejercicio Nº 2
-----
+
 ### *Enunciado:*
 <p> 
 
@@ -11,9 +11,9 @@ la lista ordenada
 
 </p>
 
----
+
 ## Estructura de Carpetas
----
+
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
 
