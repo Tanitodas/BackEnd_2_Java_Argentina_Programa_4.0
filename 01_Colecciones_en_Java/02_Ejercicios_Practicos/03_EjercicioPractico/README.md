@@ -1,4 +1,4 @@
-# Ejercicio Nº 3
+## Ejercicio Nº 3
 
 ### *Enunciado:*
 <p> 
@@ -21,7 +21,7 @@ Después de ese bucle tendremos el siguiente método en el servicio de Alumno:
 </p>
 
 
-# Estructura de Carpetas
+## Estructura de Carpetas
 
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
