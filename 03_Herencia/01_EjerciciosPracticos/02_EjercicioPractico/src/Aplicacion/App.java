@@ -68,9 +68,23 @@
 // Vamos a crear una Lavadora y un Televisor y llamar a los métodos necesarios para mostrar
 // el precio final de los dos electrodomésticos.
 
+import Entidades.Lavadora;
+import Entidades.Televisor;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
+        Televisor televisor =  new Televisor();
 
+        televisor.crearTelevisor();
+
+        System.out.println( "El televisor tiene las siguientes caracteristicas : " + televisor.toString() );
+
+        Lavadora lavadora = new Lavadora();
+
+        lavadora.crearLavadora();
+
+        System.out.println( "La Lavadora tiene las siguientes caracteristicas : " + lavadora.toString() );
+        
     }
 }

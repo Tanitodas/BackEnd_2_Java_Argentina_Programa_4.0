@@ -8,8 +8,8 @@ public class Lavadora extends Electrodomestico {
 
     //  CONSTRUCCTORES
 
-        public Lavadora(Double carga) {
-            this.carga = carga;
+        public Lavadora() {
+           
         }
 
         public Lavadora(Double precio, String color, char consumoEnergetico, Double peso, Double carga) {
@@ -35,9 +35,6 @@ public class Lavadora extends Electrodomestico {
 
             System.out.println("¿Cuanta carga admite la lavadora?");
             this.carga = entrada.nextDouble();
-
-            System.out.println("¿Cuanto pesa su lavarropas?");
-            super.peso = entrada.nextDouble();
 
             if ( carga >= 30 ) {
 

@@ -7,10 +7,10 @@ public class Electrodomestico {
     //  ATRIBUTO
 
         protected Scanner entrada = new Scanner(System.in);
-        protected Double precio;
+        protected Double precio = 1000.0;
         protected String color;
         protected char consumoEnergetico;
-        protected Double peso = 1000.0;
+        protected Double peso;
 
     // CONSTRUCTORES
 
@@ -60,7 +60,7 @@ public class Electrodomestico {
 
     //  MÉTODOS PERSONALIZADOS
 
-        public void comprobarConsumoEnergetico( char consumoEnergetico ) {
+        protected void comprobarConsumoEnergetico( char consumoEnergetico ) {
             
             consumoEnergetico = Character.toUpperCase( consumoEnergetico );
 
@@ -105,7 +105,7 @@ public class Electrodomestico {
 
         }
 
-        public void comprobarColor( String color ) {
+        protected void comprobarColor( String color ) {
             
             switch ( color ) {
                 
@@ -143,7 +143,7 @@ public class Electrodomestico {
 
         }
 
-        public void crearElectrodomestico() {
+        protected void crearElectrodomestico() {
             
             System.out.println("Ingrese el color:");
             String color = entrada.nextLine();
@@ -155,9 +155,14 @@ public class Electrodomestico {
 
             comprobarConsumoEnergetico(consumoEnergetico);
 
+            System.out.println("Ingrese el peso del electrodomestico : ( Ingrese el peso con decimales )");
+            this.peso = entrada.nextDouble();
+
+            entrada.nextLine(); // Limpiamos el buffer
+
         }
 
-        public Double precioFinal() {
+        protected Double precioFinal() {
             
             consumoEnergetico = Character.toUpperCase( consumoEnergetico );
 
@@ -165,51 +170,51 @@ public class Electrodomestico {
                 
                 case 'A':
                     
-                    this.precio = this.precio + 1000;
+                    this.precio = this.precio + 1000.0;
                     break;
 
                 case 'B':
                     
-                    this.precio = this.precio + 800;
+                    this.precio = this.precio + 800.0;
                     break;
 
                 case 'C':
                     
-                    this.precio = this.precio + 600;
+                    this.precio = this.precio + 600.0;
                     break;
 
                 case 'D':
                     
-                    this.precio = this.precio + 500;
+                    this.precio = this.precio + 500.0;
                     break;
 
                 case 'E':
                     
-                    this.precio = this.precio + 300;
+                    this.precio = this.precio + 300.0;
                     break;
 
                 case 'F':
                     
-                    this.precio = this.precio + 100;
+                    this.precio = this.precio + 100.0;
                     break;
 
             }
 
             if (this.peso >= 1 && this.peso <= 19) {
 
-                this.precio = this.precio + 100;
+                this.precio = this.precio + 100.0;
 
             } else if (this.peso >= 20 && this.peso <= 49) {
 
-                this.precio = this.precio + 500;
+                this.precio = this.precio + 500.0;
 
             } else if (this.peso >= 50 && this.peso <= 79) {
 
-                this.precio = this.precio + 800;
+                this.precio = this.precio + 800.0;
 
             } else if (this.peso >= 80) {
 
-                this.precio = this.precio + 1000;
+                this.precio = this.precio + 1000.0;
 
             }
 
@@ -217,7 +222,12 @@ public class Electrodomestico {
             
         }
 
-        
-        
+    //  MÉTODO toSTRING
+
+    @Override
+    public String toString() {
+        return "Electrodomestico [ precio=" + precio + ", color=" + color
+        + ", consumoEnergetico=" + consumoEnergetico + ", peso=" + peso + "]";
+    }
 
 }
