@@ -6,11 +6,11 @@ Corrige el siguiente código:
 
 CODIGO SIN CORRECCIONES:
 
-    ```
+   
     Array<int> listado = new ArrayList;  
     TreeSet<String> = TreeSet();    
     HashMap<Integer> personas = new HashMap<>;
-    ```
+    
     
 ## Estructura de Carpetas
 
