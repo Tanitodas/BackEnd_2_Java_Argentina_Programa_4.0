@@ -5,12 +5,11 @@
 Corrige el siguiente código:
 
 CODIGO SIN CORRECCIONES:
-    Array<int> listado = new ArrayList;
-            
-    TreeSet<String> = TreeSet();
-            
+    ```
+    Array<int> listado = new ArrayList;  
+    TreeSet<String> = TreeSet();    
     HashMap<Integer> personas = new HashMap<>;
-
+    ```
 ## Estructura de Carpetas
 
 El espacio de trabajo contiene dos carpetas por defecto.
