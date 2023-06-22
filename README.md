@@ -29,23 +29,30 @@ En este repositorio veremos almacenados los ejercicios propuestos por la institu
 
 El espacio de este repositorio esta organizado con la siguiente estructura de carpetas:
 
-+ 📂 *`'01_Introduccion_a_POO_P1'`*:
++ 📂 *`'01_Colecciones_en_Java'`*:
     
-    Esta carpeta contiene todos los **pdf's** de *'introduccion a Objetos'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'Colecciones'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + Comprender el paradigma orientado a objetos
-    + Crear clases
-    + Definir atributos de clases
+    + Concepto de colecciones en java
+    + Crear y Usar:
+      - Listas
+      - Conjuntos
+      - Mapas
+    + Entender cuando utilizar cada una de las distintas colecciones
+    + Modificar y Recorrer colecciones
+    + Agregar,Buscar y Eliminar elementos en las colecciones
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
-    En primer lugar, el pdf llamado *'01_Conceptos_POO_P1_Introducción_a_Objetos'* en el cual se encuentra una explicacion teorica de los conceptos antes mencionados.
+    En primer lugar, el pdf llamado *'01_Conceptos_de_Colecciones'* en el cual se encuentra una explicacion teorica de los conceptos antes          
+    mencionados.
     
-    Luego nos encontramos con los pdf's *'02_Ejercicios_POO_P1_Introducción_a_Objetos'* y *'03_Ejercicios_Extras_POO_P1_Introducción a Objeto'* que contienen ejercicios para aplicar los conceptos que aprendimos en el primer pdf.
+    Luego nos encontramos con los pdf's *'02_Ejercicios_Extras_Colecciones'* y *'03_Ejercicios_Extras_Mentores'* que contienen ejercicios para    
+    aplicar los conceptos que aprendimos en el primer pdf.
 
-    Por ultimo encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
+    Por ultimo encontramos tres carpetas que contienen los ejercicios teoricos, practicos y extras, correspondientemente, que se llaman       *'04_Ejercicios_Teoricos'* , *'05_Ejercicios_Practicos'* y *'06_Ejercicios_Extras'*.
 
-+ 📂 *`'02_Introduccion_a_POO_P2'`*: 
++ 📂 *`'02_Relaciones_entre_Clases'`*: 
 
     Esta carpeta contiene todos los **pdf's** de *'Clase de Servicios'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
