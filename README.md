@@ -52,7 +52,7 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
     Por ultimo encontramos tres carpetas que contienen los ejercicios teoricos, practicos y extras, correspondientemente, que se llaman       *'04_Ejercicios_Teoricos'* , *'05_Ejercicios_Practicos'* y *'06_Ejercicios_Extras'*.
 
-+ 📂 *`'02_Relaciones_Entre_Clases'`*: 
++ 📂 *`'02_Relaciones_entre_Clases'`*: 
 
     Esta carpeta contiene todos los **pdf's** de *'Clase de Servicios'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
