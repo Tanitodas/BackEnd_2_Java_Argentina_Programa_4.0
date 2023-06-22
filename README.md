@@ -54,18 +54,21 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
 + 📂 *`'02_Relaciones_entre_Clases'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Clase de Servicios'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'Relaciones_entre_clases'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + Utilizar arquitectura en capas
-    + Utilizar una clase servicio con métodos que siguen reglas    del negocio
+    + ¿Qué es una relacion?
+    + Como usar un objeto a traves de otro
+    + Las distintas relaciones que existen
+    + Cuando usar relaciones
+    + Como diagramar clases y realaciones
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
-    En primer lugar, el pdf llamado *'01_ConceptosPOO_P2_Clase_Servicio'* en el cual se encuentra una explicacion teorica de los conceptos antes mencionados.
-    
-    Luego nos encontramos con los pdf's *'02_Ejercicios_POO_P2_Clase_Servicio'* y *'03_Ejercicios_Extras_POO_P2_Clase_Servicio'* que contienen ejercicios para aplicar los conceptos que aprendimos en el primer pdf.
+    En primer lugar, el pdf llamado *'03_Guia_Relaciones_entre_Clases'* en el cual se encuentra una explicacion teorica de los conceptos antes       
+    mencionados.
 
-    Por ultimo encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
+    Luego nos encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman 
+    *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
 
 + 📂 *`'02_Introduccion_a_POO_P3'`*: 
 
