@@ -70,21 +70,25 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
     Luego nos encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman 
     *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
 
-+ 📂 *`'02_Introduccion_a_POO_P3'`*: 
++ 📂 *`'03_Herencia'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Clases de Utilidades'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'Herencia'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + Clase Date.
-    + Clase Array.
-    + Clase Integer
+    + ¿Que es la herencia?.
+    + Para que sirve.
+    + Como heredar entre clases.
+    + Clases Abstractas y Finales.
+    + Métodos Abstractos y Finales.
+    + ¿Que son las interfaces?
+    + Cuando y como usar interfaces.
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
-    En primer lugar, el pdf llamado *'01_POO_P3_Clases_de_Utilidades'* en el cual se encuentra una explicacion teorica de los conceptos antes mencionados.
-    
-    Luego nos encontramos con los pdf's *'02_Ejercicios_POO_P3_Clases_de_Utilidades'* y *'03_Ejercicios_Extras_POO_P3_Clases_de_Utilidades'* que contienen ejercicios para aplicar los conceptos que aprendimos en el primer pdf.
+    En primer lugar, el pdf llamado *'04_Herencia'* en el cual se encuentra una explicacion teorica de los conceptos antes    
+    mencionados.
 
-    Por ultimo encontramos dos carpetas que contienen los ejercicios practicos y ejercicios extras, correspondientemente, que se llaman *'01_Ejercicios_Practicos'* y *'02_Ejercicios_Extras'*.
+    Por ultimo encontramos tres carpetas que contienen los ejercicios teorcios, practicos y extras, correspondientemente, que se llaman 
+    *'01_EjerciciosTeoricos'* , *'02_EjerciciosPracticos'* y *'03_EjerciciosExtras'*.
 
 ## 📝¿Quiere tener este repositorio en su dispositivo?📝
 
