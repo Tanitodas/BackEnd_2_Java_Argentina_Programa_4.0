@@ -92,15 +92,12 @@ El espacio de este repositorio esta organizado con la siguiente estructura de ca
 
 + 📂 *`'03_ManejoDeExcepciones'`*: 
 
-    Esta carpeta contiene todos los **pdf's** de *'Herencia'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
+    Esta carpeta contiene todos los **pdf's** de *'Manejo de Excepciones'* en los cual aprendemos, y ponemos en práctica los siguientes conceptos:
 
-    + ¿Que es la herencia?.
-    + Para que sirve.
-    + Como heredar entre clases.
-    + Clases Abstractas y Finales.
-    + Métodos Abstractos y Finales.
-    + ¿Que son las interfaces?
-    + Cuando y como usar interfaces.
+    + Aprender que es una excepción.
+    + Aprender cuando y como atrapar una excepcion.
+    + Usar bloques `Try` , `Catch` y `Finally`.
+    + Usar clausulas `Throws` y `Throw`.
 
     Dentro de esta carpeta nos encontraremos con los siguientes archivos:
     
