@@ -36,7 +36,7 @@ public class Alquiler {
         private Calendar fechaAlquiler;
         private Calendar fechaDeDevolucion;
         private String posicionAmarre;
-        private Barco barcoOcupante;
+        private Barco barcoAlquilado;
 
     //  CONSTRUCTORES
 
@@ -50,7 +50,7 @@ public class Alquiler {
             this.fechaAlquiler = fechaAlquiler;
             this.fechaDeDevolucion = fechaDeDevolucion;
             this.posicionAmarre = posicionAmarre;
-            this.barcoOcupante = barcoOcupante;
+            this.barcoAlquilado = barcoOcupante;
         }
 
     //  GETTERS y SETTERS
@@ -96,11 +96,11 @@ public class Alquiler {
         }
 
         public Barco getBarcoOcupante() {
-            return barcoOcupante;
+            return barcoAlquilado;
         }
 
         public void setBarcoOcupante(Barco barcoOcupante) {
-            this.barcoOcupante = barcoOcupante;
+            this.barcoAlquilado = barcoOcupante;
         }
 
     //  MÉTODO toString
@@ -109,7 +109,7 @@ public class Alquiler {
         public String toString() {
             return "Alquiler [nombre=" + nombre + ", DNI=" + DNI + ", fechaAlquiler=" + fechaAlquiler
                     + ", fechaDeDevolucion=" + fechaDeDevolucion + ", posicionAmarre=" + posicionAmarre
-                    + ", barcoOcupante=" + barcoOcupante + "]";
+                    + ", barcoOcupante=" + barcoAlquilado + "]";
         }
         
 }
