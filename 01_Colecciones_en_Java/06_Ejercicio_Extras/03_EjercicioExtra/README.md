@@ -1,5 +1,5 @@
 ## Ejercicio Extra Nº 3
-----
+
 ### *Enunciado:*
 <p> 
 
@@ -9,9 +9,8 @@ retorne un TreeSet ordenado de los nombres. Además, crea las entidades y servic
 
 </p>
 
----
 ## Estructura de Carpetas
----
+
 El espacio de trabajo contiene dos carpetas por defecto.
 Ellas son:
 
