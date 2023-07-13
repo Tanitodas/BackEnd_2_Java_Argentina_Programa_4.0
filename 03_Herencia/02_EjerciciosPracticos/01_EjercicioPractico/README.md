@@ -17,6 +17,8 @@ Generar una clase Main que realice lo siguiente:
   
 </p>
 
+![asd](https://raw.githubusercontent.com/Tanitodas/master/03_Herencia/02_EjerciciosPracticos/01_EjercicioPractico/Imagen%20de%20lo%20que%20se%20pide%20hacer%20en%20el%20main.png)
+
 ## Estructura de Carpetas
 
 El espacio de trabajo contiene dos carpetas por defecto.
