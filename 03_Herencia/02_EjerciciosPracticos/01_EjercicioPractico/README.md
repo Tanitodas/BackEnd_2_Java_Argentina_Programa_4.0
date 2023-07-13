@@ -1,18 +1,35 @@
-## Getting Started
+## Ejercicio Teorico N°1:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Tenemos una clase padre Animal junto con sus 3 clases hijas Perro, Gato, Caballo.
 
-The workspace contains two folders by default, where:
+La clase Animal tendrá como atributos el nombre, alimento, edad y raza del Animal.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Crear un método en la clase Animal a través del cual cada clase hija deberá mostrar luego un
+mensaje por pantalla informando de que se alimenta. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Generar una clase Main que realice lo siguiente:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tanitodas/blob/master/03_Herencia/02_EjerciciosPracticos/01_EjercicioPractico/Imagen%20de%20lo%20que%20se%20pide%20hacer%20en%20el%20main.png" />
+</p>
 
-## Dependency Management
+## Estructura de Carpetas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
+
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
+
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Perro'`* , *`'Gato'`* y *`'Animal'`*, a pesar de esta ultima ser una clase padre.
+
+    + *Entidades* : Este paquete almacena la clase *`'Perro'`* , *`'Gato'`* y *`'Animal'`*. En este caso la clase *`'Animal'`* es una clase padre de las clases  *`'Perro'`* y *`'Gato'`*.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
