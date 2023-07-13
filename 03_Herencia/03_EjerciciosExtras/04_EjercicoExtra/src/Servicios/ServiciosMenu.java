@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import Entidades.Empleado;
 import Entidades.Estudiante;
+import Entidades.Persona;
 import Entidades.PersonalServicio;
 import Entidades.Profesor;
 
@@ -196,31 +198,97 @@ public final class ServiciosMenu {
 
                         for (int i = 0; i < lista.size() ; i++) {
                         
-                        if ( listaDeProfesores.get(i).getNumDNI() == DNImodif ) {
-                            
-                            contador++;
+                            if ( ((Persona) lista.get(i)).getNumDNI() == DNImodif ) {
+                                
+                                contador++;
 
-                            System.out.println("¿Que datos quiere modificar del profesor? [" + listaDeProfesores.get(i).getNombres() + "]");
-                            System.out.println("1 - Nombre");
-                            System.out.println("2 - Apellido");
-                            System.out.println("3 - DNI");
-                            System.out.println("4 - Estado Civil");
-                            System.out.println("5 - Fecha Incorporacion");
-                            System.out.println("6 - Despacho");
-                            System.out.println("7 - Departamento");
-                            int atributoModificar = entrada.nextInt();
+                                System.out.println("¿Que datos quiere modificar del profesor? [" + listaDeProfesores.get(i).getNombres() + "]");
+                                System.out.println("1 - Nombre");
+                                System.out.println("2 - Apellido");
+                                System.out.println("3 - DNI");
+                                System.out.println("4 - Estado Civil");
+                                System.out.println("5 - Fecha Incorporacion");
+                                System.out.println("6 - Despacho");
+                                System.out.println("7 - Departamento");
+                                int atributoModificar = entrada.nextInt();
 
+                                switch (atributoModificar) {
+                                    case 1:
+                                        
+                                        System.out.println("El nombre sin modificar es {" + ((Persona) lista.get(i)).getNombres() + "}" );
+                                        System.out.println("Ingrese el nuevo nombre");
+                                        ((Persona) lista.get(i)).setNombres( entrada.nextLine() );
+                                        System.out.println("====================================");
+                                        System.out.println("El nombre modificado es {" + ((Persona) lista.get(i)).getNombres() + "}" );
+                                        break;
+
+                                    case 2:
+
+                                        System.out.println("El apellido sin modificar es {" + ((Persona) lista.get(i)).getApellidos() + "}" );
+                                        System.out.println("Ingrese el nuevo apellido");
+                                        ((Persona) lista.get(i)).setApellidos( entrada.nextLine() );
+                                        System.out.println("====================================");
+                                        System.out.println("El apellido modificado es {" + ((Persona) lista.get(i)).getApellidos() + "}" );
+                                        break;
+
+                                    case 3:
+
+                                        System.out.println("El DNI sin modificar es {" + ((Persona) lista.get(i)).getNumDNI() + "}" );
+                                        System.out.println("Ingrese el nuevo DNI");
+                                        ((Persona) lista.get(i)).setNumDNI(entrada.nextLong());
+                                        System.out.println("====================================");
+                                        System.out.println("El numero de DNI modificado es {" + ((Persona) lista.get(i)).getNumDNI() + "}" );
+                                        break;
+
+                                    case 4:
+
+                                        System.out.println("El estado civil sin modificar es {" + ((Persona) lista.get(i)).getEstadoCivil() + "}" );
+                                        System.out.println("Ingrese el nuevo estado civil");
+                                        ((Persona) lista.get(i)).setEstadoCivil(entrada.nextLine());;
+                                        System.out.println("====================================");
+                                        System.out.println("El estado civil modificado es {" + ((Persona) lista.get(i)).getEstadoCivil() + "}" );
+                                        break;
+
+                                    case 5:
+
+                                        System.out.println("La fecha de incorporacion sin modificar es {" + ((Empleado) lista.get(i)).getAñoIncorporacion() + "}" );
+                                        System.out.println("Ingrese la nueva fecha de incorporacion");
+                                        ((Empleado) lista.get(i)).setAñoIncorporacion(servicioProfesor.fechaDeAlta());
+                                        System.out.println("====================================");
+                                        System.out.println("El nombre modificado es {" + ((Empleado) lista.get(i)).getAñoIncorporacion() + "}" );
+                                        break;
+
+                                    case 6:
+
+                                        System.out.println("El despacho sin modificar es {" + ((Empleado) lista.get(i)).getNumeroDespachoAsignado() + "}" );
+                                        System.out.println("Ingrese el nuevo apellido");
+                                        ((Empleado) lista.get(i)).setNumeroDespachoAsignado(servicioProfesor.asignacionDespacho());;
+                                        System.out.println("====================================");
+                                        System.out.println("El nombre modificado es {" + ((Persona) lista.get(i)).getApellidos() + "}" );
+                                        break;
+
+                                    case 7:
+
+                                        System.out.println("El departamento sin modificar es {" + ((Profesor) lista.get(i)).getDepartamento() + "}" );
+                                        System.out.println("Ingrese el nuevo apellido");
+                                        ((Profesor) lista.get(i)).setDepartamento(servicioProfesor.asignarDepartamento());;
+                                        System.out.println("====================================");
+                                        System.out.println("El nombre modificado es {" + ((Profesor) lista.get(i)).getDepartamento() + "}" );
+                                        break;
+                                
+                                    default:
+                                        break;
+                                }
+
+                            }
+
+                    }
+
+                        if (contador == 0 ) {
                             
+                            System.out.println("No se encontraron coincidencias en la lista");
 
                         }
-
-                    }
-
-                    if (contador == 0 ) {
-                        
-                        System.out.println("No se encontraron coincidencias en la lista");
-
-                    }
 
 
                     } while (contador == 0);
