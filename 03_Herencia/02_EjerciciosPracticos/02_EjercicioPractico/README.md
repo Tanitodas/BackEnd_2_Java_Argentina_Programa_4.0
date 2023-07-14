@@ -28,9 +28,7 @@ Crear una ***SuperClase*** llamada *`'Electrodoméstico'`* con los siguientes at
 
 <p align="Left">
 <img src="https://i.postimg.cc/02CQ6L3c/Imagen-izquierda.png" />
-</p>
-
-<p align="Right">
+ align="Right">
 <img src="https://i.postimg.cc/Dyh0w2CS/Imagen-Derecha.png" />
 </p>
 
