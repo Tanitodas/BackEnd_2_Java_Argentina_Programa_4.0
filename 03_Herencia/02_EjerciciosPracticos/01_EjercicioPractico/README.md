@@ -12,12 +12,8 @@ mensaje por pantalla informando de que se alimenta.
 Generar una clase Main que realice lo siguiente:
 
 <p align="center">
-  
-<img src="https://raw.githubusercontent.com/Tanitodas/master/03_Herencia/02_EjerciciosPracticos/01_EjercicioPractico/Imagen%20de%20lo%20que%20se%20pide%20hacer%20en%20el%20main.png" />
-  
+<img src="https://i.postimg.cc/nLJL15t6/Imagen-de-lo-que-se-pide-hacer-en-el-main.png" />
 </p>
-
-![asd](https://raw.githubusercontent.com/Tanitodas/master/03_Herencia/02_EjerciciosPracticos/01_EjercicioPractico/Imagen%20de%20lo%20que%20se%20pide%20hacer%20en%20el%20main.png)
 
 ## Estructura de Carpetas
 
