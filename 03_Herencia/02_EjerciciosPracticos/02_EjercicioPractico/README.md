@@ -26,10 +26,11 @@ Crear una ***SuperClase*** llamada *`'Electrodoméstico'`* con los siguientes at
    
 9) Método `precioFinal()`: según el consumo energético y su tamaño, aumentará el valor del precio. Esta es la lista de precios:
 
-<p align="Left">
-<img src="https://i.postimg.cc/02CQ6L3c/Imagen-izquierda.png" />
- align="Right">
-<img src="https://i.postimg.cc/Dyh0w2CS/Imagen-Derecha.png" />
+<p>
+   <
+   img src="https://i.postimg.cc/02CQ6L3c/Imagen-izquierda.png" lign="left" width="200px
+   img src = "https://i.postimg.cc/Dyh0w2CS/Imagen-Derecha.png" lign="rigth" width="200px
+   />
 </p>
 
 A continuación, se debe ***crear una SubClase*** llamada *`'Lavadora'`*, con los atributos:
