@@ -1,18 +1,34 @@
-## Getting Started
+## *Ejercicio Practico N°1*:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### *Enunciado:*
 
-## Folder Structure
+Se plantea desarrollar un programa que nos permita calcular el área y el perímetro de formas
+geométricas, en este caso un círculo y un rectángulo. Ya que este cálculo se va a repetir en las
+dos formas geométricas, vamos a crear una Interfaz, llamada `calculosFormas` que tendrá, los
+dos métodos para calcular el área, el perímetro y el valor de PI como constante.
 
-The workspace contains two folders by default, where:
+Desarrollar el ejercicio para que las formas implementen los métodos de la interfaz y se
+calcule el área y el perímetro de los dos. En el main se crearán las formas y se mostrará el
+resultado final.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Área circulo: PI * radio ^ 2 / Perímetro circulo: PI * diámetro.
+Área rectángulo: base * altura / Perímetro rectángulo: (base + altura) * 2.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Estructura de Carpetas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+El espacio de trabajo contiene dos carpetas por defecto.
+Ellas son:
 
-## Dependency Management
++ *`'src'`*:
+    <p>Esta carpeta contiene todos los paquetes que realizamos para resolucion del ejercicio.</p>
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    Estos paquetes son:
+    + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde ponemos a prueba los diferentes metodos de la clase *`'Rectangulo'`* y *`'Circulo'`*.
+
+    + *Entidades* : Este paquete almacena la clase *`'Rectangulo'`* y *`'Circulo'`*. En este caso en ambas clases implementamos la 'interfaz' *`'calculoFormas'`.
+
++ *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
+
+---
+
+*NOTA* : Si desea personalizar la estructura de carpetas, abra `.vscode/settings.json` y actualice la configuración relacionada allí.
