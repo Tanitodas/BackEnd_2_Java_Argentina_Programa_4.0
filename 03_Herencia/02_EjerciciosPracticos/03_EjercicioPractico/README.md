@@ -1,4 +1,4 @@
-## Ejercicio Teorico N°2:
+## *Ejercicio Practico N°3*:
 
 ### *Enunciado:*
 
