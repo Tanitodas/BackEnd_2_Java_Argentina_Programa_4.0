@@ -38,10 +38,13 @@ Ellas son:
     + *Aplicacion* : En este paquete se guarda el metodo *`main`* en donde no realizamos nada ya que el ejercicio no nos los pide.
 
     + *Entidades* : Este paquete almacena la carpeta 'Barcos' , 'Entidades_Auxiliares' y 'Puerto'.
+  
       A su vez en ellas alamcenamos algunas clases, estas son, segun carpeta, las siuguientes:
-      *  Barcos : Se almacenan las clases *`'Barco'`* , *`'BarcoAMotor'`* , *`'BarcoVelero'`* , *`'YateDeLujo'`* e *`'InterfazBarco'`*.
-      *  Entidades_Auxiliares: Se alamcena la clase *`'Matricula'`* en donde establecemos que la matricula de los barcos es un objeto en donde                tenemos dos atributos y componen una matricula alfanumerica.
-      *  Puerto : Se almacenan las clases *`'Alquiler'`* y *`'AlquilerServicio'`*.
+      
+      1)  *Barcos* : Se almacenan las clases *`'Barco'`* , *`'BarcoAMotor'`* , *`'BarcoVelero'`* , *`'YateDeLujo'`* e *`'InterfazBarco'`*.
+      2)  *Entidades_Auxiliares* : Se alamcena la clase *`'Matricula'`* en donde establecemos que la matricula de los barcos es un objeto en donde                tenemos dos atributos y componen una matricula alfanumerica.
+      3) *Puerto* : Se almacenan las clases *`'Alquiler'`* y *`'AlquilerServicio'`*.
+
 
 + *`'lib'`*: Esta carpeta no se ve reflejada en el repositorio ya que no utilizamos librerias para realizar este ejercicio.
 
