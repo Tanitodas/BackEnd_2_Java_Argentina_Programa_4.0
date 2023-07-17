@@ -9,9 +9,9 @@ amarre y el barco que lo ocupará.
 Un Barco se caracteriza por: su matrícula, su eslora en metros y año de fabricación.
 Sin embargo, se pretende diferenciar la información de algunos tipos de barcos especiales:
 
-  _ Número de mástiles para veleros.
-  _ Potencia en CV para barcos a motor.
-  _ Potencia en CV y número de camarotes para yates de lujo.
+  * Número de mástiles para veleros.
+  * Potencia en CV para barcos a motor.
+  * Potencia en CV y número de camarotes para yates de lujo.
 
 Un alquiler se calcula multiplicando el número de días de ocupación (calculado con la fecha de
 alquiler y devolución), por un valor módulo de cada barco (obtenido simplemente
