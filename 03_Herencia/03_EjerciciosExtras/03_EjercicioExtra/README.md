@@ -19,7 +19,7 @@ _ Hotel ***** Cantidad de Habitaciones, Número de camas, Cantidad de Pisos, Gim
 Nombre del Restaurante, Capacidad del Restaurante, Cantidad Salones de
 Conferencia, Cantidad de Suites, Cantidad de Limosinas, Precio de las Habitaciones.
 
-Los gimnasios pueden ser clasificados por la empresa como de tipo “A” o de tipo “B”, de
+Los Gimnasios pueden ser clasificados por la empresa como de tipo “A” o de tipo “B”, de
 acuerdo a las prestaciones observadas. Las limosinas están disponibles para cualquier
 cliente, pero sujeto a disponibilidad, por lo que cuanto más limosinas tenga el hotel, más caro
 será.
