@@ -2,7 +2,7 @@
 
 ### *Enunciado:*
 
-Sistema Gestión Facultad. Se pretende realizar una aplicación para una facultad que gestione
+**Sistema Gestión Facultad**. Se pretende realizar una aplicación para una facultad que gestione
 la información sobre las personas vinculadas con la misma y que se pueden clasificar en tres
 tipos: estudiantes, profesores y personal de servicio.
 
