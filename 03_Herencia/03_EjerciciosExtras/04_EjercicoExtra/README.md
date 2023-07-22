@@ -1,18 +1,37 @@
-## Getting Started
+Sistema Gestión Facultad. Se pretende realizar una aplicación para una facultad que gestione
+la información sobre las personas vinculadas con la misma y que se pueden clasificar en tres
+tipos: estudiantes, profesores y personal de servicio.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A continuación, se detalla qué tipo de información debe gestionar esta aplicación:
 
-## Folder Structure
+* Por cada persona, se debe conocer, al menos, su nombre y apellidos, su número de
+  identificación y su estado civil.
+  
+* Con respecto a los empleados, sean del tipo que sean, hay que saber su año de
+  incorporación a la facultad y qué número de despacho tienen asignado.
 
-The workspace contains two folders by default, where:
+* En cuanto a los estudiantes, se requiere almacenar el curso en el que están
+  matriculados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Por lo que se refiere a los profesores, es necesario gestionar a qué departamento
+  pertenecen (lenguajes, matemáticas, arquitectura, ...).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Sobre el personal de servicio, hay que conocer a qué sección están asignados
+  (biblioteca, decanato, secretaría, ...).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+El ejercicio consiste, en primer lugar, en definir la jerarquía de clases de esta aplicación. A
+continuación, debe programar las clases definidas en las que, además de los constructores,
+hay que desarrollar los métodos correspondientes a las siguientes operaciones:
 
-## Dependency Management
+* Cambio del estado civil de una persona.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Reasignación de despacho a un empleado.
+
+* Matriculación de un estudiante en un nuevo curso.
+
+* Cambio de departamento de un profesor.
+
+* Traslado de sección de un empleado del personal de servicio.
+
+Imprimir toda la información de cada tipo de individuo. Incluya un programa de prueba
+que instancie objetos de los distintos tipos y pruebe los métodos desarrollados.
