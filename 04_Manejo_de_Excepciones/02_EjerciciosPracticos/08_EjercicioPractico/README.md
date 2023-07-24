@@ -1,4 +1,4 @@
-## *Ejercicio Extra N°4*:
+## *Ejercicio Practico N°8*:
 
 ### *Enunciado:*
 
