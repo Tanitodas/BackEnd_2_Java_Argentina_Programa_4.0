@@ -2,7 +2,7 @@
 
 ### *Enunciado:*
 
-Indique que se mostrará por pantalla cuando se ejecute cada una de estas clases:
+Indique que se mostrará por pantalla cuando se **ejecute** cada una de estas clases:
 
 * Clase 1:
 
