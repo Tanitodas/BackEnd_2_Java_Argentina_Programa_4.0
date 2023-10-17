@@ -1,4 +1,4 @@
-# 🔎¿Que se puede encontrar en este Repositorio?🔍 
+# 🔎¿Que se puede encontrar en este Repositorio?🔍 asdasdasdasdasdasdasd
 
 En este repositorio podemos encontrar una recopilacion de ejercicios propuestos por "EGG Cooperation" en el marco del programa "Argentina Programa 4.0" que  da un curso para desarrollarse como "PROGRAMADOR FULL STACK JUNIOR". En donde se impartieron lecciones acerca de:
 
